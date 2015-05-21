@@ -1,11 +1,12 @@
-give @p written_book 1 0 {title:"Teleporter V1.01",author:"As1259",pages:[
+give @p written_book 1 0 {title:"Teleporter V1.05",author:"As1259",pages:[
 
 "{text:'Teleport Optionen\n\n',extra:[
 	{text:' Häuser\n',color:blue,clickEvent:{action:change_page,value:'2'}},
-	{text:' Biome\n',color:blue,clickEvent:{action:change_page,value:'2'}},
-	{text:' Monuments\n',color:blue,clickEvent:{action:change_page,value:'2'}},
-	{text:' Villages\n',color:blue,clickEvent:{action:change_page,value:'2'}},
-	{text:' EVENS\n',color:blue,clickEvent:{action:change_page,value:'2'}}]}",
+	{text:' Biome\n',color:blue,clickEvent:{action:change_page,value:'3'}},
+	{text:' Monuments\n',color:blue,clickEvent:{action:change_page,value:'4'}},
+	{text:' Villages\n',color:blue,clickEvent:{action:change_page,value:'5'}},
+	{text:' EVENTS\n',color:blue,clickEvent:{action:change_page,value:'6'}},
+	{text:' EVENTBESCHREIBUNGEN\n',color:blue,clickEvent:{action:change_page,value:'7'}}]}",
 	
 "{text:'Häuser\n\n',extra:[
 	{text:' As1259 Haus\n',color:blue,clickEvent:{action:run_command,value:'/tp @p -261 73 230'}},
@@ -15,7 +16,7 @@ give @p written_book 1 0 {title:"Teleporter V1.01",author:"As1259",pages:[
 	{text:' Zurück zur Übersicht\n',color:red,clickEvent:{action:change_page,value:'1'}}]}",
 	
 "{text:'Biome\n\n',extra:[
-{text:' HUB\n',color:blue,clickEvent:{action:run_command,value:'/tp @p 30168 66 30058'}},
+	{text:' HUB\n',color:blue,clickEvent:{action:run_command,value:'/tp @p 30168 66 30058'}},
 	{text:' PORTAL\n',color:blue,clickEvent:{action:run_command,value:'/tp @p -150 108 265'}},
 	{text:' Mushroom Island\n',color:blue,clickEvent:{action:run_command,value:'/tp @p -4391 64 -3478'}},
 	{text:' ICE\n',color:blue,clickEvent:{action:run_command,value:'/tp @p 10436 69 -2393'}},
@@ -23,12 +24,23 @@ give @p written_book 1 0 {title:"Teleporter V1.01",author:"As1259",pages:[
 	{text:' Zurück zur Übersicht\n',color:red,clickEvent:{action:change_page,value:'1'}}]}",
 
 "{text:'Monuments\n\n',extra:[
-	{text:' Guardian Temple\n',color:blue,clickEvent:{action:run_command,value:'/tp @p 4871 70 4925'}}]}",
+	{text:' Guardian Temple\n',color:blue,clickEvent:{action:run_command,value:'/tp @p 4871 70 4925'}},
+	{text:' Chicken Farm\n',color:blue,clickEvent:{action:run_command,value:'/tp @p -250 72 319'}},
+{text:' Zurück zur Übersicht\n',color:red,clickEvent:{action:change_page,value:'1'}}]}",
 
 "{text:'Villages\n\n',extra:[
-{text:' Empty\n',color:blue,clickEvent:{action:change_page,value:'2'}}]}",
+{text:' Empty\n',color:blue,clickEvent:{action:change_page,value:'2'}},
+{text:' Zurück zur Übersicht\n',color:red,clickEvent:{action:change_page,value:'1'}}]}",
 
-"{text:'EVENS\n\n',extra:[
-{text:' Empty\n',color:blue,clickEvent:{action:change_page,value:'2'}}]}",
+"{text:'EVENTS\n\n',extra:[
+{text:' Dungeon Arena\n',color:blue,clickEvent:{action:run_command,value:'/tp @p 30277 68 30075'}},
+{text:' Zurück zur Übersicht\n',color:red,clickEvent:{action:change_page,value:'1'}}]}",
 
+
+"{text:'EVENTBESCHREIBUNG\n\n',extra:[
+{text:' Dungeon Arena\n',color:black,clickEvent:{action:change_page,value:'1'}},
+{text:' Töte innerhalb von\n',color:black,clickEvent:{action:change_page,value:'1'}},
+{text:' 90 Sec 30 Mobs\n',color:black,clickEvent:{action:change_page,value:'1'}},
+{text:' Zurück zur Übersicht\n',color:red,clickEvent:{action:change_page,value:'1'}}]}",
 ]}
+
